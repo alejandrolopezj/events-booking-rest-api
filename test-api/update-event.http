@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/3
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImpvaG4uZG9lM0BleGFtcGxlLmNvbSIsImV4cCI6MTc5MTg2MTk5N30.8N9PV5xmTOnmi3pMrar8V-jR4F6oH27Fk9CWBLR9Hb4
+
+{
+  "title": "Sample Event Updated",
+  "description": "This is an updated sample event for testing purposes." ,
+  "location": "123 Main St, Anytown, USA",
+  "date_time": "2024-07-02T11:00:00.000Z"
+}
